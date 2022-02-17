@@ -237,16 +237,20 @@ button{
 }
 
 
-@media (max-width:350px){
+@media (max-width:414px){
 
-    .navbar .search-icon,
-    .navbar .menu-icon,
-    .navbar .cancel-icon {
+    
+    .menu-icon {
 
-        margin: 0 20px;
-        font-size: 16px;
+        position: absolute;
+        top: 1;
+        left:1rem;
+        transform: translate(-50%,1.5rem);
+        
 
     }
+    
+
 
     
 }
